@@ -1,0 +1,13 @@
+ninja
+typing-extensions>=4.8.0
+starlette
+psutil
+ray==2.9.1
+sentencepiece
+numpy
+tokenizers>=0.15.0
+transformers>=4.38.0
+fastapi
+uvicorn[standard]
+pydantic>=2.0
+prometheus_client>=0.18.0
