@@ -72,6 +72,8 @@ python3 setup.py install
 
 #### 注意事项
 + 若使用 pip install 下载安装过慢，可添加源：-i https://pypi.tuna.tsinghua.edu.cn/simple/
++ 该版本是基于曙光提供的0.3.3版本修改得到的
++ 具体修改表现为，添加了kvcache int8量化支持，并优化了activation_kernel.cu中的算子
 
 ## 验证
 - python -c "import vllm; print(vllm.\_\_version__)"，版本号与官方版本同步，查询该软件的版本号，例如0.3.3；
